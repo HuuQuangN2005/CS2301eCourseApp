@@ -1,57 +1,99 @@
-# CS2301ECOURSEAPP
+# 🎓 CS2301ECOURSEAPP
 > A small university project used to learn and practice React-Native, Django, and MySQL.
 
 ![Pip Version](https://img.shields.io/badge/pip-22.2.2-blue)
-
-- MyUniversityApp is a small educational project developed as part of a university course.
+![Build Status](https://img.shields.io/badge/build-not%20done%20yet-lightgrey)
+## 📘 Overview
+- **CS2301ECOURSEAPP** is a small educational project developed as part of a university course.
 It aims to help students practice full-stack development using:
 
-- React Native for mobile UI
+- ⚛️ **React Native** for mobile UI  
+- 🐍 **Django** for backend and API handling  
+- 🗄️ **MySQL** for database management  
 
-- Django for backend and API handling
-
-- MySQL for database management
-
-- The project focuses on learning backend-frontend integration, authentication, and database operations in a real-world setup.
+The project focuses on learning **backend–frontend integration**, **authentication**, and **database operations** in a real-world setup.
 
 ![](header.png)
 
-## Installation
+---
 
-Windows:
-```sh
+## ⚙️ Installation
+
+### 🪟 Windows
+
+```bash
+# Clone the repository
 git clone https://github.com/HuuQuangN2005/CS2301eCourseApp.git
 cd CS2301eCourseApp
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## Usage example
+---
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+## 🚀 Usage Example
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+### ▶️ Run Django Backend
 
-## Release History
+```bash
+# Navigate to backend directory
+cd ecourseapisv1
 
-* 0.0.1
-    * Work in progress
+# Apply migrations
+python manage.py migrate
 
-## Meta
+# Start development server
+python manage.py runserver
+```
 
-Nguyễn Hữu Quang – [https://www.facebook.com/huuquang.nguyen.1213/]
+Backend will start at **http://127.0.0.1:8000/**
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+---
 
-[https://github.com/HuuQuangN2005]
+## 🧩 Release History
 
-## Contributing
+* **0.0.1**
+  * Work in progress  
+  * Build status: *Not done yet*
 
-1. Fork it (<https://github.com/HuuQuangN2005/CS2301eCourseApp/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+---
+
+## 👤 Meta
+
+**Author:** Nguyễn Hữu Quang    
+💻 [GitHub](https://github.com/HuuQuangN2005)
+
+Distributed under the **MIT License**.  
+See [`LICENSE`](LICENSE) for more information.
+
+---
+
+## 🤝 Contributing
+
+1. Fork it (<https://github.com/HuuQuangN2005/CS2301eCourseApp/fork>)  
+2. Create your feature branch  
+   ```bash
+   git checkout -b feature/fooBar
+   ```
+3. Commit your changes  
+   ```bash
+   git commit -am "Add somethingr"
+   ```
+4. Push to the branch  
+   ```bash
+   git push origin feature/fooBar
+   ```
+5. Create a new Pull Request  
+
+---
 
 <!-- Markdown link & img dfn's -->
+[pip-url]: https://pypi.org/project/pip/
+
 
 
