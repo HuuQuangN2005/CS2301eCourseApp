@@ -24,13 +24,14 @@ The project focuses on learning **backend–frontend integration**, **authentica
 ```bash
 # Clone the repository
 git clone https://github.com/HuuQuangN2005/CS2301eCourseApp.git
-cd CS2301eCourseApp
+cd \\sCS2301eCourseApp
 
 # Create virtual environment (optional but recommended)
 python -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
+cd \\ecourseapisv1s
 pip install -r requirements.txt
 ```
 
@@ -42,7 +43,7 @@ pip install -r requirements.txt
 
 ```bash
 # Navigate to backend directory
-cd ecourseapisv1
+cd \\ecourseapisv1
 
 # Apply migrations
 python manage.py migrate
