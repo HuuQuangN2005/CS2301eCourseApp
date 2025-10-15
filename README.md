@@ -1,7 +1,7 @@
 # CS2301ECOURSEAPP
 > A small university project used to learn and practice React-Native, Django, and MySQL.
 
-[![Pip Version][pip-image]][pip-url]
+![Pip Version](https://img.shields.io/badge/pip-22.2.2-blue)
 
 - MyUniversityApp is a small educational project developed as part of a university course.
 It aims to help students practice full-stack development using:
@@ -53,6 +53,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[pip-image]: https://pypi.org/static/images/logo-small.8998e9d1.svg
-[npm-url]: https://pypi.org/
+
 
