@@ -24,7 +24,7 @@ The project focuses on learning **backend–frontend integration**, **authentica
 ```bash
 # Clone the repository
 git clone https://github.com/HuuQuangN2005/CS2301eCourseApp.git
-cd \sCS2301eCourseApp
+cd \CS2301eCourseApp
 
 # Create virtual environment (optional but recommended)
 python -m venv venv
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## 🚀 Usage Example
 
-### ▶️ Run Django Backend
+### ▶️ Run Django Backends
 
 ```bash
 # Navigate to backend directory
